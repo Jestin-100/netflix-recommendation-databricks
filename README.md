@@ -1,6 +1,6 @@
-# Netflix Movie Recommendation Engine Databricks Lakehouse
+# Netflix Movie Data Pipeline Using Databricks Lakeflow Declaritive Pipelines
 
-End to end collaborative filtering recommendation system built completely on Databricks.
+Lakeflow declarative pipelines of Netflix data (till 2025) completely on Databricks.
 
 Most recent Netflix movie data (csv files) extracted from Kaggle and ingested in to databricks unity catalog as volume in the landing schema (raw data ingestion). 
 
@@ -16,10 +16,8 @@ Spark ALS + Delta Lake + MLflow + Databricks SQL Dashboards + Automated Workflow
 ![Architecture](architecture.png)
 
 ## Features
-- 5 million synthetic ratings (realistic power-law distribution)
 - Bronze → Silver → Gold medallion architecture
 - MLflow experiment tracking + model registry
-- Top-10 recommendations for every user
 - Live dashboard in Databricks SQL
 - Weekly automated retraining job
 
