@@ -1,6 +1,6 @@
 # Netflix Movie Recommendation Engine Databricks Lakehouse
 
-End-to-end collaborative filtering recommendation system (just like the Netflix Prize) built 100% on Databricks.
+End to end collaborative filtering recommendation system built 100% on Databricks.
 
 Spark ALS + Delta Lake + MLflow + Databricks SQL Dashboards + Automated Workflows
 
