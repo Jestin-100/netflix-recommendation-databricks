@@ -21,4 +21,4 @@ Spark ALS + Delta Lake + MLflow + Databricks SQL Dashboards + Automated Workflow
 - Live dashboard in Databricks SQL
 - Weekly automated retraining job
 
-Work in progress – come back in a few days for the full code & demo video!
+Work in progress
